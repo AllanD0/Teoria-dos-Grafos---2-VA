@@ -43,8 +43,7 @@ TeoriadosGrafos/
 ├── gabarito_agm.txt
 └── ...
 
-yaml
-Copiar código
+
 
 ---
 
@@ -73,27 +72,27 @@ Copiar código
 -s              : mostra a solução (ex: arestas da AGM)
 Exemplo (Prim):
 bash
-Copiar código
+
 ./prim -f ../Bat1/instances/exemp.mtx -i 1
 Saída:
 
-Copiar código
+
 14
 Com a flag -s:
 
 bash
-Copiar código
+
 ./prim -f ../Bat1/instances/exemp.mtx -i 1 -s
 Saída:
 
 scss
-Copiar código
+
 (1,4) (4,2) (4,3) (3,5) (1,6)
 🧩 Formato dos Arquivos de Entrada
 Os grafos seguem o formato .mtx:
 
 python-repl
-Copiar código
+
 n m
 u1 v1 w1
 u2 v2 w2
@@ -131,7 +130,7 @@ Os programas são compatíveis com esses testes.
 
 Rodar manualmente um teste:
 bash
-Copiar código
+
 ./prim -f ../Bat1/instances/exemp.mtx -i 1 -s
 
 👨‍💻 Autor
